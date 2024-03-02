@@ -1,0 +1,3 @@
+for the execution of the non cypress command in the cypress code , the execution sequence is not predictable
+
+to predict anything we use cy.log()

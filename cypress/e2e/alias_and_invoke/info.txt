@@ -1,0 +1,15 @@
+If you want to get a property that is not a function on the previously yielded subject, use .its().
+
+//invoke is basically used for the calling the function of the previous yielded subjects.
+//its is basically used to get a property
+
+
+//.invoke(function name,options);
+// .its(propertyName,options);
+
+// .invoke(functionName,options)
+
+
+//invoke and its cannot be chain with the cy. directly
+cy.wrap({ age: 52 }).its('age').should('eq', 52) // true
+cy.wrap(['Wai Yan', 'Yu']).its(1).should('eq', 'Yu') // true

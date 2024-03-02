@@ -1,0 +1,22 @@
+//here i write all the commands that needed :
+
+//to run all the test cases
+1> npx cypress run 
+
+2>to run the specific the files 
+npx cypress --spec address of the spec
+
+
+3>to run the test in the headed mode 
+npx cypress run --headed
+healess browser does not have the GUI. this made this is very efficient 
+but the headed browser have the GUI.  
+
+
+4>non headless chrome browser
+default browser is electron
+command: npx cypress run --browser chrome
+
+
+5> inside the folder run all the testcase    
+npx cypress run --spec addressofspec/*

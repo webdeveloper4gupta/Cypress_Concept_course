@@ -1,0 +1,8 @@
+.then(callback function)
+for example : cy.get('.nav).then(($nav)=>{ //yield the paricular element
+    
+})
+
+cy.get('.nav).then((loc)=>{    //yield the particular element
+
+})
